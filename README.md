@@ -1,7 +1,13 @@
 nexon-api.zip 압축을 풀면 nexon-api.svg 있습니다.
 
 프로젝트 -> app -> src -> main -> assets 폴더 생성 있으면 
-nexon-api.svg 에 추가하면 끝
+nexon-api.svg 에 추가하면 됩니다.
+
+build.gradle.kts -> 
+implementation("io.coil-kt:coil-compose:2.6.0")
+implementation("io.coil-kt:coil-svg:2.6.0")
+두개 추가하세요.
+
 ```
 @Composable
 fun MainLoad(modifier: Modifier = Modifier) {
