@@ -5,6 +5,7 @@ nexon-api.svg 에 추가하면 됩니다.
 
 build.gradle.kts -> 
 implementation("io.coil-kt:coil-compose:2.6.0")
+
 implementation("io.coil-kt:coil-svg:2.6.0")
 두개 추가하세요.
 
