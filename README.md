@@ -1,3 +1,5 @@
+프로젝트 -> app -> src -> main -> assets 폴더 생성 있으면 
+nexon-api.svg 추가
 ```
 @Composable
 fun MainLoad(modifier: Modifier = Modifier) {
