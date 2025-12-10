@@ -1,4 +1,4 @@
-```@Composable
+@Composable
 fun MainLoad(modifier: Modifier = Modifier) {
     val context = LocalContext.current
     var load by rememberSaveable { mutableStateOf(false) }
@@ -91,4 +91,4 @@ fun MainLoad(modifier: Modifier = Modifier) {
             }
         }
     }
-}```
+}
