@@ -1,10 +1,12 @@
-```@Composable
+```
+@Composable
 fun MainLoad(modifier: Modifier = Modifier) {
     val context = LocalContext.current
     var load by rememberSaveable { mutableStateOf(false) }
     var director by rememberSaveable { mutableStateOf(false) }
 
     if (load) {
+        // 만약 로고가 끝난후 이동할 함수 (기본 MainActivity) 사용
         MainActivity(modifier)
         return
     }
@@ -91,4 +93,4 @@ fun MainLoad(modifier: Modifier = Modifier) {
             }
         }
     }
-}```
+}
